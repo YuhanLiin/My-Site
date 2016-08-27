@@ -1,0 +1,11 @@
+h1 {
+    font-size: 400%;
+    margin-bottom: 40px;
+}
+
+#project-gallery {
+    background: #30415d;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,66 @@
+/** {
+    border: solid 1px red;
+}*/
+
+h1 {
+    font-size: 500%;
+    font-weight: 900;
+}
+h3 {
+    font-size: 220%;
+    margin-top: 10px;
+}
+h4 {
+    font-size: 200%;
+}
+
+#name-banner {
+    background: linear-gradient(#002b80, #003399);
+}
+
+#animated-title > span{
+    opacity: 0;
+}
+
+#my-info {
+    padding: 0;
+}
+
+#my-info > div {
+    height: 400px;
+}
+
+#my-face {
+    padding: 0;
+    max-height: 100%;
+}
+
+#my-description {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    background: #30415d;
+}
+
+#my-description > h2 {
+    margin-bottom: 20px;
+}
+
+#my-description > p {
+    font-size: 100%;
+    margin-bottom: 15px;
+}
+
+#showcase {
+    background: linear-gradient(#4dc3ff, #99ddff);
+    padding: 0 10px 20px 10px;
+}
+
+#showcase-title{
+    padding-left: 10px;
+}
+
+
+
+
+
