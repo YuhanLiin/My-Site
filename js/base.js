@@ -21,7 +21,7 @@ function projectHtml(project){
                 + '<h3 class="text-dark">%name%</h3>'
                 + '<div class="img-box project-img center-block">'
                 + '<img class="img-responsive" src="%image%" alt="Project Image"></div>'
-                + '<div class="project-description text-dark center-block"> <p>%description%</p> </div>';
+                + '<div class="project-description text-black center-block"> <p>%description%</p> </div>';
     if (project.link){
         html += '<a class="btn btn-default" href="%link%" role="button">To the App!</a>';
     }
@@ -49,7 +49,7 @@ function contactHtml(contact){
 
 var navbuttons = [{name:"Home", path:"index.html"},
                     {name:"Projects", path:"projects.html"},
-                    {name: "Resume", path:"resume.html"}]
+                    {name: "Résumé", path:"resume.html"}]
 
 var contactInfo = [{type:"Facebook", link:"https://www.facebook.com/yuhan.lin.75", content:"facebook.com/yuhan.lin.75"},
                     {type:"Github", link:"https://github.com/YuhanLiin", content:"github.com/YuhanLiin"},
