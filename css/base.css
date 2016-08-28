@@ -35,7 +35,11 @@ h5 {
 }
 
 .text-dark {
-    color: #0c5d90;
+    color: #0a4c75;
+}
+
+.text-black {
+    color: black;
 }
 
 /* navbar styling */
