@@ -20,8 +20,9 @@ $(".project-box").click(function(){
     var descriptionP = descriptionBox.children('p');
     //Slide box back in and stack the description under the box
     if ($(this).data("slideout")){
-        descriptionP.css("z-index", "-1");
-        descriptionP.animate({"opacity":"0"}, fadeTime);
+        descriptionP.animate({"opacity":"0"}, fadeTime).promise().done(function(){
+            descriptionP.delay(slideTime).css("z-index", "-1");
+        });
         descriptionBox.delay(fadeTime).animate({"max-height":"0",
                                             "height": "0"}, slideTime);
         $(this).data("slideout", false);
