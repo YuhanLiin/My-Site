@@ -33,3 +33,20 @@ description:"The site you are browsing right now was entirely built and develope
             + "complete frontend project. While the visual layout and styling were built upon the Bootstrap framework, "
             + "the DOM manipulation and animations were mainly powered by jQuery. The site is hosted on Github, where "
             + "the source code is also available."}];
+
+//Function which creates the markup for a project box with project json as input
+function projectHtml(project){
+    var html = '<div class="col-md-4 project-shell"><div class="round-box project-box">'
+                + '<h3 class="text-dark">%name%</h3>'
+                + '<div class="img-box project-img center-block">'
+                + '<img class="img-responsive" src="%image%" alt="Project Image"></div>'
+                + '<div class="project-description text-black center-block"> <p>%description%</p> </div>';
+    if (project.link){
+        html += '<a class="btn btn-default" href="%link%" role="button">To the App!</a>';
+    }
+    if (project.github){
+        html += '<a class="btn btn-default" href="%github%" role="button">To Github!</a>';
+    }
+    html += '</div></div>';
+    return renderHtml(html, project);
+}
