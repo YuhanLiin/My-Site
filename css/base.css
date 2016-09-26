@@ -59,6 +59,12 @@ h5 {
     background: #d1e0e0;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        margin: 7.5px 0px;
+    }
+}
+
 /* project-box styling */
 
 .project-shell {
