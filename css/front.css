@@ -38,10 +38,17 @@ h4 {
 #my-description {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 100%;
     background: #30415d;
 }
 
+@media (max-width: 992px){
+    #my-description {
+        height: auto;
+    }
+}
 #my-description > h2 {
     margin-bottom: 20px;
 }
