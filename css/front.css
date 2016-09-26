@@ -44,9 +44,12 @@ h4 {
     background: #30415d;
 }
 
-@media screen and (max-width: 992px){
+@media (max-width: 992px){
     #my-info > div {
         height: auto;
+    }
+    #showcase-title > h2{
+        text-align: center;
     }
 }
 

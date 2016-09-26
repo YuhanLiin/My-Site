@@ -5,6 +5,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+#gallery-title{
+    width: 100%;
+}
+
 #project-gallery {
     background: #30415d;
     padding: 10px 10px 20px 10px;
