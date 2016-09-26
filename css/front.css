@@ -44,11 +44,12 @@ h4 {
     background: #30415d;
 }
 
-@media (max-width: 992px){
-    #my-description {
+@media screen and (max-width: 992px){
+    #my-info > div {
         height: auto;
     }
 }
+
 #my-description > h2 {
     margin-bottom: 20px;
 }
