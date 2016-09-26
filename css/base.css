@@ -65,56 +65,6 @@ h5 {
     }
 }
 
-/* project-box styling */
-
-.project-shell {
-    padding: 5px;
-}
-
-.project-box {
-    text-align: center;
-    background: white;
-    padding: 5px 15px 15px 15px;
-}
-
-.project-box > a {
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-    z-index: 10;
-}
-
-.project-img{
-    width: 80%;
-    max-height: 180px;
-    height: 180px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-@media screen and (max-width: 992px){
-    .project-img {
-        max-height: none;
-        height: auto;
-    }
-}
-
-.project-description {
-    width: 90%;
-    max-height: 0;
-    height: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.project-description > p {
-    opacity: 0;
-    z-index: -1;
-    margin: 0;
-    max-width: 100%;
-    position: relative;
-}
-
 /* contact section styling */
 
 #contact {

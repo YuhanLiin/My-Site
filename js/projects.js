@@ -21,7 +21,7 @@ for (i in gallery){
     galleryID.append(projectHtml(gallery[i]));
 }
 
-//Change porject-box colour when hovered over
+//Change project-box colour when hovered over
 $(".project-box").hover(function(){
     $(this).css("background-color","#e6e6e6");
 },
