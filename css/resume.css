@@ -2,6 +2,12 @@
     background: #30415d;
     text-align: center;
     padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+object {
+    width:70%;
+    height:1100px;
 }
 
 h1 {
