@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* general classes */
 
 body{
@@ -78,3 +79,122 @@ h5 {
 .contact-info {
     margin-bottom: 15px;
 }
+||||||| merged common ancestors
+=======
+/* general classes */
+
+body{
+    background-color: #e6f7ff;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+h2 {
+    font-size: 250%;
+}
+h5 {
+    font-size: 130%;
+}
+
+.img-box > img {
+    height: 100%;
+    max-height: 100%;
+    width:100%;
+}
+
+.round-box {
+    display: block;
+    border-radius: 35px;
+}
+
+.text-title {
+    font-family: 'Righteous', cursive;
+}
+
+.text-dark {
+    color: #0a4c75;
+}
+
+.text-black {
+    color: black;
+}
+
+/* navbar styling */
+
+#nav {
+    font-size: 110%
+}
+#nav > li > a {
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+}
+#nav > li.active > a{
+    background: #337ab7;
+}
+#nav > li > a:hover {
+    background: #d1e0e0;
+}
+
+/* project-box styling */
+
+.project-shell {
+    padding: 5px;
+}
+
+.project-box {
+    text-align: center;
+    background: white;
+    padding: 5px 15px 15px 15px;
+}
+
+.project-box > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.project-img{
+    width: 80%;
+    max-height: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    width: 90%;
+    max-height: 0;
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description > p {
+    opacity: 0;
+    z-index: -1;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+}
+
+/* contact section styling */
+
+#contact {
+    background: #00111a;
+}
+
+#contact-title {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 15px;
+}
+>>>>>>> origin/gh-pages

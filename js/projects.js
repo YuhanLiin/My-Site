@@ -1,4 +1,3 @@
-
 //Creates gallery
 var galleryID = $("#project-gallery");
 for (i in gallery){

@@ -1,4 +1,3 @@
-
 var descriptionID = $("#my-description");
 for (i in description){
     descriptionID.append('<p>'+description[i]+'</p>');
