@@ -1,3 +1,20 @@
+//Function which creates the markup for a project box with project json as input
+function projectHtml(project){
+    var html = '<div class="col-md-4 project-shell"><div class="round-box project-box">'
+                + '<h3 class="text-dark">%name%</h3>'
+                + '<div class="img-box project-img center-block">'
+                + '<img class="img-responsive" src="%image%" alt="Project Image"></div>'
+                + '<div class="project-description text-black center-block"> <p>%description%</p> </div>';
+    if (project.link){
+        html += '<a class="btn btn-default" href="%link%" role="button">To the App!</a>';
+    }
+    if (project.github){
+        html += '<a class="btn btn-default" href="%github%" role="button">To Github!</a>';
+    }
+    html += '</div></div>';
+    return renderHtml(html, project);
+}
+
 //Creates gallery
 var galleryID = $("#project-gallery");
 for (i in gallery){

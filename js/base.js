@@ -1,4 +1,4 @@
-//Important html generation functions
+//Important html generation functions plus the rendering of the navbar and the contact list, which are present on all pages
 
 function renderHtml(html, object){
     for (key in object){
@@ -14,22 +14,6 @@ function buttonHtml(button){
     }
     var html = '<li' + active + '><a href="%path%"> %name% </a></li>';
     return renderHtml(html, button);
-}
-
-function projectHtml(project){
-    var html = '<div class="col-md-4 project-shell"><div class="round-box project-box">'
-                + '<h3 class="text-dark">%name%</h3>'
-                + '<div class="img-box project-img center-block">'
-                + '<img class="img-responsive" src="%image%" alt="Project Image"></div>'
-                + '<div class="project-description text-black center-block"> <p>%description%</p> </div>';
-    if (project.link){
-        html += '<a class="btn btn-default" href="%link%" role="button">To the App!</a>';
-    }
-    if (project.github){
-        html += '<a class="btn btn-default" href="%github%" role="button">To Github!</a>';
-    }
-    html += '</div></div>';
-    return renderHtml(html, project);
 }
 
 function contactHtml(contact){
