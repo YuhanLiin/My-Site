@@ -37,6 +37,7 @@ var navbuttons = [{name:"Home", path:"index.html"},
 
 var contactInfo = [{type:"Facebook", link:"https://www.facebook.com/yuhan.lin.75", content:"facebook.com/yuhan.lin.75"},
                     {type:"Github", link:"https://github.com/YuhanLiin", content:"github.com/YuhanLiin"},
+                    {type:"LinkedIn", link:"https://www.linkedin.com/in/yuhan-lin-11275684", content:"linkedin.com/in/yuhan-lin-11275684"},
                     {type:"Outlook", content:"linyuhan0315@hotmail.com"},
                     {type:"Cell Number", content:"416-271-1095"}];
 
