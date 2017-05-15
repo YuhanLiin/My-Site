@@ -1,5 +1,20 @@
 var gallery =
-[{name:"Mini-Chat", image:"images/minichat.png", link:"http://mini-chat-140720.appspot.com",
+[
+{
+    name:'Turf Wars Online', image: 'images/tfonline.png', link:'https://fast-earth-97553.herokuapp.com/',
+    description: 'The Turf Wars game ported to NodeJS with multiplayer support. Includes a simple 2-player lobby system'
+                    + ' and a browser client that renders game graphics using with FabricJS. The networking was implemented'
+                    + ' with Socket.io and Redis.'
+},
+
+{
+    name:'Regex engine + LL/LR', image: 'images/regex.png', github: 'https://github.com/YuhanLiin/Parsing',
+    description: 'C++ implementations of a simple non-backtracking NFA Regex recognizer engine as well as the LR and LL parsing algorithms.'
+                    + ' The parsers is able to match input as well as pause when a reduction takes place, allowing custom'
+                    + ' semantic actions to happen.'
+},
+
+{name:"Mini-Chat", image:"images/minichat.png", link:"http://mini-chat-140720.appspot.com",
 description:"A simple chat application developed with Python, featuring server-pushed updates via Google App Engine's "
             + "Channel API in addition to clientside AJAX via jQuery. Users can pick their names and join the chat without "
             + "any signup and receive real time updates whenever the server receives a message. "},
