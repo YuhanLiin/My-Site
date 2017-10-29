@@ -14,3 +14,7 @@ h1 {
     font-size: 400%;
     margin-bottom: 40px;
 }
+
+#resume-link {
+    color: lightblue;
+}
